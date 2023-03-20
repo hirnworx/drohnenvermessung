@@ -1,0 +1,188 @@
+.reveal-menu-home ul.nav.navbar-nav {
+    float: left !important;
+}
+
+@media (max-width: 992px){
+    #rt_get_app .mt_heading, .mt_heading_white {
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width: 992px){
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .reveal-menu-home ul.nav.navbar-nav {
+        float: none !important;
+    }
+    #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav .logo {
+        float: right;
+    }
+    #rt_header nav #navigation .navbar.navbar-default.reveal-menu-home.sticky-nav .logo img.sticky_logo {
+        right: 0;
+        transform: initial;
+        left: auto;
+    }
+}
+
+ul li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+ul li:before {
+    left: auto;
+    right: 0;
+}
+.icons-details ul li {
+    padding-right: 0;
+}
+
+#rt_get_app .mt_heading, .mt_heading_white {
+    margin-right: 35px;
+}
+
+#rt_banner .banner_caption_img img {
+    text-align: right;
+    display: block;
+}
+#rt_banner .banner_caption_text .btn-app-store {
+    padding-right: 75px;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+#rt_banner .banner_caption_text .btn-app-store i {
+    right: 25px;
+    transform: translate(0px, -50%);
+    left: auto;
+}
+#rt_banner .banner_caption_text .btn-app-store .small {
+    text-align: right;
+}
+#rt_banner .banner_caption_text .btn-app-store .big {
+    text-align: right;
+}
+#rt_testimonial .testimonial_main p:before {
+    content: "\f10e";
+    right: -30px;
+    left: auto;
+}
+#rt_testimonial .testimonial_main .client_name {
+    float: right;
+    margin-right: 15px;
+    text-align: right;
+}
+#rt_testimonial .testimonial_main .mt_testimonial_img {
+    float: right;
+    text-align: right;
+}
+#rt_blog .blog_post .date {
+    right: auto;
+    left: 15px;
+    text-align: center;
+}
+#rt_blog .blog_post h3 {
+     display: block; 
+    text-align: right;
+}
+#rt_blog .blog_post p {
+    text-align: right;
+}
+#newsletter .newsletter-inner_wrapper h4 .stay-touch {
+    text-align: right;
+}
+#newsletter .newsletter-inner_wrapper .newsletterForm input[type=email] {
+    border-radius: 50px;
+    color: #676767;
+    padding-right: 81px;
+    background-position: right 40px top 29px;
+    background-position-x: 94%;
+    background-position-y: 50%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+#newsletter .newsletter-inner_wrapper .newsletterForm .submit-button {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 11px 40px;
+}
+#rt_contact .contact_info .contact_heading span:before {
+    display: none;
+}
+#rt_pricing .main_pricing_conatiner .price .price_tag .currency {
+  left: auto;
+  position: absolute;
+  right: -18px;
+}
+
+blockquote span:before {
+    left: auto;
+    right: 0;
+}
+blockquote span {
+    padding-right: 20px;
+    padding-left: auto;
+}
+#blog_main_sec .author_box .author_img ul li {
+    padding-right: 15px;
+    padding-left: 0;
+}
+aside .widget .search-form input[type=text] {
+    padding-right: 30px;
+    padding-left: 40px;
+    background-position: left 17px center;
+    background-position-x: 5%;
+    background-position-y: 50%;
+}
+aside .widget_tag_cloud ul li {
+    margin-right: 0;
+    margin-left: 3px;
+}
+aside .widget ul li {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#blog_main_sec #comments .comments-lists .comment h4 {
+    text-align: right;
+}
+
+#blog_main_sec #comments .comments-lists .comment {
+    padding-left: 0;
+    padding-right: 0;
+}
+#blog_main_sec #comments .comments-lists .comment .comment-body {
+    padding-bottom: 18px;
+    padding-right: 105px;
+    padding-left: 0;
+}
+#blog_main_sec #comments .comments-lists .comment .children .comment .activity_rounded {
+    margin-right: 9px;
+}
+#blog_main_sec #comments .comments-lists .comment .children {
+    margin-left: 0;
+    margin-right: 20px;
+}
+#blog_main_sec #comments .comments-lists .comment .activity_rounded {
+    right: 0;
+    left: auto;
+}
+#general_banner .bread_crumbs .breadcrumb li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+#general_banner .bread_crumbs .breadcrumb li:first-child {
+    padding-right: 0;
+    padding-left: 0;
+}
+#general_banner .bread_crumbs .breadcrumb li:after {
+    left: -14px;
+    right: auto;
+    content: '\f3d2';
+}
