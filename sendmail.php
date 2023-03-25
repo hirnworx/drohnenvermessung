@@ -8,11 +8,11 @@
     $message = trim($_POST['message']);
 
     // Recipient Data
-    $to_email = 'youremail@domain.com';
-    $to_name = 'Your Name';
+    $to_email = 'tn@codingtree.eu';
+    $to_name = 'Thomas';
 
     // Success Message
-    $success_msg = 'Thanks for Contacting Us! We will contact you soon';
+    $success_msg = 'Vielen Dank für Ihre Nachricht - Wir melden uns umgehend';
 
     
     if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)) 
@@ -56,7 +56,7 @@
         $mail->Body    = 'Name: '.$name.' <br />Message: '.$message;
         
         if(!$mail->send()) {
-            echo 'Message could not be sent.';
+            echo 'Die Nachricht konnte nicht versendet werden';
             echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
             $signal = 'ok';
